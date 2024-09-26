@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    margin: 15px 15px 15px;
+    padding-bottom: 40px;
+    background-color: aqua;
+}
+
+.rojo{
+    margin: 15px 15px 15px;
+    padding-bottom: 200px;
+    background-color: red;
+}
+
+.partes{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    margin: 15px 15px 15px;
+}
+.parte1 {
+    background-color: green;
+    padding: 100px;
+}
+
+.filas{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    margin: 15px 15px 15px;
+}
+.cuadro {
+    background-color: gray;
+    padding-bottom: 300px;
+}
+
+.fila1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+
+.fila1 p {
+    background-color: brown;
+}
